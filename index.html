@@ -1,47 +1,92 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-  <head>
-  <title>Adam Sandberg Eriksson</title>
+<head>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="css.css" />
-  </head>
-  <body>
-    <pre id="first">
-Adam Sandberg Eriksson
-======================
+  <title>Adam Sandberg Eriksson</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+  <link href='http://fonts.googleapis.com/css?family=Anonymous+Pro:400,700' rel='stylesheet' type='text/css'>
+  <style>
+    body {
+      font-family: 'Anonymous Pro';
+      background: #fdf7e2;
+      color: #042029;
+    }
 
-<a href="mailto:adam@sandbergericsson.se">adam@sandbergericsson.se</a>
-0734 00 45 70
+    .main {
+      height:100vh;
+    }
 
-Doktor Wigardhs gata 2
-413 23 Göteborg
-Sweden
-</pre>
+    h2, h3 {
+      margin: 0;
+    }
 
-    <pre id="second">
+    h1 {
+      padding-left: 15px;
+    }
 
+    h2 {
+      font-size: 140%;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
 
+    h3 {
+      margin-right: 5px;
+      display: inline-block;
+      font-size: 100%;
+      font-weight: bold;
+      color: #BD3613;
+    }
 
-- <a href="https://github.com/adamse">github.com/adamse</a>
-- <a href="https://www.facebook.com/adamsericsson">www.facebook.com/adamsericsson</a>
-- <a href="http://stackoverflow.com/users/204218/adamse">stackoverflow.com/users/204218/adamse</a>
-- <a href="http://se.linkedin.com/in/adamsandbergericsson">se.linkedin.com/in/adamsandbergericsson</a>
-</pre>
+    ul {
+      padding: 0;
+      list-style-type: none;
+    }
 
-    <pre id="third">
+    li {
+      width: 100%;
+      font-weight: 400;
+      padding-bottom: 5px;
+    }
 
-Studerar sedan 2011 till Civilingengör i Datateknik på Chalmers
-Tekniska Högskola (<a href="http://www.chalmers.se/">chalmers.se</a>)
+    a {
+      color: #C61C6F;
+    }
 
-Aktiv i Chalmers Studentkår, just nu som sekreterare på
-Datateknologsektionen (<a href="http://dtek.se">dtek.se</a>)
+    a:hover {
+      color: #595AB7;
+    }
+  </style>
+</head>
+<body>
+  <div class="container-fluid main">
+      <h1>Adam Sandberg Eriksson</h1>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <p><a href="mailto:adam@sandbergericsson.se">adam@sandbergericsson.se</a>
+        <p>0734 00 45 70
 
-Uppskattar programmering, digitalteknik, matlagning och kunskap.
-
-
-
-<a href="en.html">In english</a>
-</pre>
-
-  </body>
+        <p>Doktor Wigardhs gata 2<br>
+        413 23 Göteborg<br>
+        Sweden</p>
+        
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <h2>On the internet</h2>
+        <ul>
+          <li><a href="https://github.com/adamse">github.com/adamse</a>
+          <li><a href="https://www.facebook.com/adamsericsson">www.facebook.com/adamsericsson</a>
+          <li><a href="http://stackoverflow.com/users/204218/adamse">stackoverflow.com/users/204218/adamse</a>
+          <li><a href="http://se.linkedin.com/in/adamsandbergericsson">se.linkedin.com/in/adamsandbergericsson</a>
+          <li>Also see my <a href="https://github.com/adamse/cv/raw/master/cv_en.pdf">CV</a>
+        </ul>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <h2>Off the internet</h2>
+        <p>I study computer science at Chalmers. Algorithms, logic and programming languages in particular.
+        <p>I enjoy cooking, food and beer.
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+      </div>
+  </div>
+</body>
 </html>
