@@ -1,9 +1,0 @@
-* {
-  font-size: 16px;
-}
-#first {
-  float: left;
-  margin-right: 5em;
-}
-#second { float: left; }
-#third { clear: both; }
