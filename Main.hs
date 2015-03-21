@@ -16,9 +16,10 @@ site :: Html ()
 site =
   doctypehtml_
     (do sitehead
-        body_ (h1_ "Adam Sandberg Eriksson" <>
-               mconcat boxes <>
-               toHtmlRaw analytics))
+        body_ (div_ [class_ "container-fluid main"]
+                    (h1_ "Adam Sandberg Eriksson" <>
+                     mconcat boxes <>
+                     toHtmlRaw analytics)))
   where boxes = [addr,online,currently]
 
 
