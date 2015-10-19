@@ -25,7 +25,8 @@ site =
 
 addr :: Html ()
 addr =
-  box_ (do p_ (a_ [href_ "mailto:adam@sandbergericsson.se"] "adam@sandbergericsson.se")
+  box_ (do p_ (a_ [href_ "tel:+46734004570"] "+46 7 34 00 45 70")
+           p_ (a_ [href_ "mailto:adam@sandbergericsson.se"] "adam@sandbergericsson.se")
            p_ (address_ ("Doktor Wigardhs gata 2" <> br_ [] <>
                          "413 23 Göteborg" <> br_ [] <>
                          "Sweden")))
@@ -39,9 +40,7 @@ online =
                    li_ (a_ [href_ "http://stackoverflow.com/users/204218/adamse"]
                            "stackoverflow.com/users/204218/adamse")
                    li_ (a_ [href_ "http://se.linkedin.com/in/adamsandbergericsson"]
-                           "linkedin.com/in/adamsandbergericsson")
-                   li_ ("Also see my " <>
-                        a_ [href_ "https://github.com/adamse/cv/raw/master/cv_en.pdf"] "CV")))
+                           "linkedin.com/in/adamsandbergericsson")))
 
 currently :: Html ()
 currently =
@@ -49,9 +48,6 @@ currently =
            p_ ("I'm studying the master programme " <>
                a_ [href_ "http://www.chalmers.se/en/education/programmes/masters-info/Pages/Computer-Science-algorithms-languages-and-logic.aspx"]
                   "Computer science--Algorithms, Languages and Logic" <>
-               ".")
-           p_ ("I'm organising the 2015 edition of the " <>
-               a_ [href_ "http://gbgstartuphack.com/"] "Gothenburg Startup Hack" <>
                "."))
 
 box_ :: Term arg res => arg -> res

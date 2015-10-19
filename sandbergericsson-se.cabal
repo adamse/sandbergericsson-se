@@ -60,7 +60,7 @@ executable sandbergericsson-se
   -- other-extensions:
 
   -- Other library packages from which modules are imported.
-  build-depends:       base >=4.7 && <4.8
+  build-depends:       base >=4.7 && <4.9
                      , lucid >= 2.9
                      , bytestring
 
